@@ -11,7 +11,7 @@ body {
 
 .navbar {
     width: 100%;
-    background: #ffffff;
+    background: skyblue;
     padding: 12px 20px;
     display: flex;
     justify-content: space-between;
@@ -20,21 +20,28 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.dropdown{
-    width: 10%;
-    background: #ffffff;
-    padding: 2px 2px;
-    display: flex;
-    justify-content: space-between;
-    
-   
-}
-
 .search {
     padding: 8px;
     width: 250px;
     border-radius: 10px;
     border: 1px solid #ccc;
+}
+
+.button{
+    padding: 8px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+}
+.navbarbelow {
+    width: 100%;
+    background: navy;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 
@@ -119,3 +126,4 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
