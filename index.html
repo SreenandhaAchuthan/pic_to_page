@@ -2,19 +2,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+             margin: 0;
+            padding: 0;
+        }
+        b {
+            color: white;
+
+        }
+        h2, p {
+            margin: 10px;
+         }
+        ul {
+          list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: skyblue;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: #111111;
+        }
+        
+        ulo {
+          list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: navy;
+        }
+
+        ulo li {
+            float: left;
+        }
+
+        ulo li a {
+            display: block;
+            color: white;
+            text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+        }
+
+        ulo li a:hover {
+            background-color: #111111;
+        }
+</style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pic-to-Page Recreation</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<nav class="navbar">
+        <div class="logo"><h2><b>byte2site</b></h2></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#tutorials">Tutorials</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#notes">Notes</a></li>
+            <li><a href="#contacts">Contacts</a></li>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="logo">LOGO</div>
+        </ul>
         <input type="text" class="search" placeholder="Search...">
-        <div class="profile">👤</div>
+        <input type="button" value="Login"></input>
+        <input type="button" value="Signup"></input>
     </nav>
+
+      <nav class="navbarbelow">
+        <ulo>
+            <li><a href="#startlearning">Start Learning 🔻</a></li>
+            <li><a href="#tutorials">Tutorials 🔻</a></li>
+        </ulo>
+    </nav>
+
     <p> Home/Tutorials/Popular</p>
     <ul class="dropdown">
         <li><select >
@@ -30,25 +106,19 @@
     </ul>
     <p> Tutorials</p>
     <input type="button" class="button1" value="top resources"></input>
-
-    
-
-
-
+ 
     <div class="container">
 
-        
+   
         <aside class="sidebar">
-            <ol>
+            <ul>
                 <li>Web Basics</li>
                 <li>Frontend Frameworks</li>
                 <li>Backend & API</li>
-                <li>Database &SQL</li>
-                <li>DevOps & tools</li>
-                
-            </ol>
+                <li>Database & SQL</li>
+                <li>DevOps & Tools</li>
+            </ul>
         </aside>
-        
         
 
      
@@ -80,6 +150,7 @@
 
 </body>
 </html>
+
 
 
 
